@@ -6,7 +6,7 @@ University of Denver Coding Bootcamp 12th week assignment: This assignment requi
 # How It Works:
 - Bamazon displays products for sale, prompts users for which item they would like to purchase and how many.
 - If the store has the amount in stock, it will let the user know their order is complete and the total amount spent.
-- If there is an insufficient amount of an item, the app will let the user know Bamazon does not have enough in stock to complete their order.
+- If there is an insufficient amount of an item, the app will let the user know Bamazon does not have enough in stock to complete their order and will then ask them if they would like to purchase a different item.
 
 # Tools + Languages Used:
 * JavaScript
