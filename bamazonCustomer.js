@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "17Idoj1995",
+    password: "",
     database: "bamazon_db"
 });
 
@@ -87,8 +87,23 @@ function purchaseOrder(ID, quantityWanted) {
             console.log("I'm sorry, we don't have enough " + resp[0].product_name + " to complete your order.");
             console.log("");
         };
-        connection.end();
+        reprompt();
     });
 }
+
+function reprompt(){
+    inquirer.prompt([{
+      type: "confirm",
+      name: "reply",
+      message: "Would you like to purchase a different item?"
+    }]).then(function(answer){
+      if(answer.reply){
+        purchasePrompt();
+      } else{
+        console.log("Please come again!");
+        connection.end();
+      }
+    });
+  }
 
 displayProducts();

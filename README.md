@@ -15,10 +15,5 @@ University of Denver Coding Bootcamp 12th week assignment: This assignment requi
 
 # Screenshots to show app functionality:
 ![Image](screenshots/bam1.png)
-![Image](screenshots/bam2.png)
 
-## Completed Order
-![Image](screenshots/bam3.png)
-
-## Insufficient amount in stock
-![Image](screenshots/bam4.png)
+![Image](screenshots/bam6.png)
