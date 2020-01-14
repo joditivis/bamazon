@@ -13,7 +13,32 @@ University of Denver Coding Bootcamp 12th week assignment: This assignment requi
 * Node.js
 * MySQL
 
-# Screenshots to show app functionality:
-![Image](screenshots/bam1.png)
+# App Functionality:
+## Starting the application:
+![Image](gifs/bamazongif1.gif)
 
+## Completing an Order:
+* Enter in the item ID
+* Enter in the amount to purchase
+* App returns order confirmation and order total
+* App asks customer if they would like to purchase a different item
+* Customer selects Yes or No
+* If yes, app prompts customer again for which item they would like to purchase
+* If no, app returns message saying "Please come again!" and ends session
+![Image](gifs/bamazongif2.gif)
+
+## Insufficient Amount of Product:
+* Enter in the item ID
+* Enter in the amount to purchase
+* App returns message letting customer know there is not enough of that item in stock
+* App asks customer if they would like to purchase a different item
+* Customer selects Yes or No
+* If yes, app prompts customer again for which item they would like to purchase
+* If no, app returns message saying "Please come again!" and ends session
+![Image](gifs/bamazongif3.gif)
+
+
+
+# Screenshots
+![Image](screenshots/bam1.png)
 ![Image](screenshots/bam6.png)
